@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #101820;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #101820;
+}
+
+header {
+    width: 100%;
+    background-color: #1C1C1C;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+}
+
+main {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+#mainHead {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inputBox {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#inputBase,
+#numberInput,
+#outputBase {
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #101820;
+    border: 2px solid #008080;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+button {
+    background-color: #FF6700;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+    height: 35px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF8C32;
+}
+
+#result {
+    display: none; /* Hide the output box initially */
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #008080;
+    border-radius: 8px;
+    background-color: #2C2C2C;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1C1C1C;
+    margin-top: auto;
+}
